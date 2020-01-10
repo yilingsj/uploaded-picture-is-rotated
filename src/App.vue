@@ -1,10 +1,15 @@
+<!--
+ * @Description:
+ * @Author:  yilingsj（315800015@qq.com）
+ * @Date: 2020-01-09 13:54:47
+ * @LastEditors  : yilingsj（315800015@qq.com）
+ * @LastEditTime : 2020-01-10 11:07:48
+ * @FilePath: \uploaded-picture-is-rotated\src\App.vue
+ -->
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <h2>部分手机拍照上传图片到服务器后出现了旋转</h2>
+    <router-view />
   </div>
 </template>
 
@@ -15,5 +20,4 @@
   -moz-osx-font-smoothing grayscale
   text-align center
   color #2c3e50
-  margin-top 60px
 </style>

@@ -1,5 +1,12 @@
+/*
+ * @Description:
+ * @Author: yilingsj（315800015@qq.com）
+ * @Date: 2020-01-04 14:36:09
+ * @LastEditors  : yilingsj（315800015@qq.com）
+ * @LastEditTime : 2020-01-10 17:02:09
+ */
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import VueRouter, { RouterOptions } from 'vue-router'
 import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
@@ -21,9 +28,9 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes
-})
+} as RouterOptions)
 
 export default router

@@ -26,11 +26,14 @@
     "@vue/cli-service": "^4.1.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "@vue/eslint-config-typescript": "^4.0.0",
+    "axios": "^0.19.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "exif-js": "^2.3.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "typescript": "~3.5.3",
+    "vconsole": "^3.3.4",
     "vue-template-compiler": "^2.6.10"
   }
 }
